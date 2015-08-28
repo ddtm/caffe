@@ -1,6 +1,6 @@
 # Gradient Reversal Branch
 
-This is an extension to Caffe which allows one to reproduce some of the results presented in the paper [Unsupervised Domain Adaptation by Backpropagation](http://arxiv.org/abs/1409.7495) (accepted to ICML 2015).
+This is an extension to Caffe which allows one to reproduce some of the results presented in the paper [Unsupervised Domain Adaptation by Backpropagation](http://jmlr.org/proceedings/papers/v37/ganin15.pdf) (accepted to ICML 2015).
 
 ## How to use
 
@@ -21,9 +21,9 @@ Change `amazon_to_webcam` either to `dslr_to_webcam` or to `webcam_to_dslr` in o
 
 Please cite the following technical report if you are using this extension in your research:
 
-    @article{ganin2014unsupervised,
-        title={Unsupervised Domain Adaptation by Backpropagation},
-        author={Ganin, Yaroslav and Lempitsky, Victor},
-        journal={arXiv preprint arXiv:1409.7495},
-        year={2014}
+    @inproceedings{ganin2015unsupervised,
+        author    = {Yaroslav Ganin and Victor S. Lempitsky},
+        title     = {Unsupervised Domain Adaptation by Backpropagation},
+        booktitle = {ICML},
+        year      = {2015}
     }
